@@ -8,7 +8,7 @@ import Service from './routes/Service';
 function App() {
   return (
     <div className='App'>
-      <BrowserRouter basename='travel-website'>
+      <HashRouter basename='travel-website'>
         {/* <Navbar/> */}
           <Routes>
              <Route exact path="/travel-website/" element={<Home/>} ></Route>
@@ -16,7 +16,7 @@ function App() {
              <Route path="/contact" element={<Contact/>} ></Route>
              <Route path="/service" element={<Service/>}></Route>
           </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   
   );
