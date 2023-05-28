@@ -8,10 +8,10 @@ import Service from './routes/Service';
 function App() {
   return (
     <div className='App'>
-      <BrowserRouter>
+      <BrowserRouter basename='travel-website'>
         {/* <Navbar/> */}
           <Routes>
-             <Route path="/" element={<Home/>} ></Route>
+             <Route exact path="/travel-website/" element={<Home/>} ></Route>
              <Route path="/about" element={<About/>} ></Route>
              <Route path="/contact" element={<Contact/>} ></Route>
              <Route path="/service" element={<Service/>}></Route>
