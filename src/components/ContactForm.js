@@ -1,0 +1,18 @@
+import "./ContactFromStyle.css"
+
+function ContactForm(){
+    return(
+        <div className="form-container">
+            <h1>Send a message to us!</h1>
+            <form>
+                <input placeholder="name"/>
+                <input placeholder="Email"/>
+                <input placeholder="Subject"/>
+                <textarea placeholder="message" rows='4'></textarea>
+                <button>Send Message</button>
+            </form>
+
+        </div>
+    )
+}
+export default ContactForm
