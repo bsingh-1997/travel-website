@@ -1,5 +1,5 @@
 import './FooterStyles.css'
-
+import { Link } from 'react-router-dom'
 const Footer=()=>{
     return(
         <div className="footer">
@@ -7,10 +7,10 @@ const Footer=()=>{
                 <div><h1>Trips</h1><p>chosse your favoutitr destination</p></div>
                 <div className='iconz'>
 
-                <div><a href='/'><i className='fa-brands fa-facebook-square'></i></a></div>
-                <div><a href='/'><i className='fa-brands fa-instagram-square'></i></a></div>
-                <div><a href='/'><i className='fa-brands fa-behance-square'></i></a></div>
-                <div><a href='/'><i className='fa-brands fa-twitter-square'></i></a></div>
+                <div><Link to='/'><i className='fa-brands fa-facebook-square'></i></Link></div>
+                <div><Link to='/'><i className='fa-brands fa-instagram-square'></i></Link></div>
+                <div><Link to='/'><i className='fa-brands fa-behance-square'></i></Link></div>
+                <div><Link to='/'><i className='fa-brands fa-twitter-square'></i></Link></div>
                 </div>
              </div>
             <div className="bottom">
