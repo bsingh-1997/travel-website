@@ -6,18 +6,21 @@ import Contact from './routes/Contact';
 import About from './routes/About';
 import Service from './routes/Service';
 import { HashRouter } from 'react-router-dom';
+import Homeo from './components/Homeo'
+import Aboutop from './components/Aboutop'
 function App() {
   return (
     <div className='App'>
-      <HashRouter basename='travel-website'>
+      <BrowserRouter>
         {/* <Navbar/> */}
           <Routes>
-             <Route exact path="/travel-website/" element={<Home/>} ></Route>
-             <Route path="/about" element={<About/>} ></Route>
-             <Route path="/contact" element={<Contact/>} ></Route>
-             <Route path="/service" element={<Service/>}></Route>
+             <Route exact path="/" element={<Homeo/>} ></Route>
+             {/* <Route path="/about" element={<About/>} ></Route> */}
+             <Route path="/about" element={<Aboutop/>} ></Route>
+             {/* <Route path="/contact" element={<Contact/>} ></Route> */}
+             {/* <Route path="/service" element={<Service/>}></Route> */}
           </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   
   );
