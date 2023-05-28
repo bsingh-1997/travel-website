@@ -5,6 +5,7 @@ import Home from './routes/Home';
 import Contact from './routes/Contact';
 import About from './routes/About';
 import Service from './routes/Service';
+import { HashRouter } from 'react-router-dom';
 function App() {
   return (
     <div className='App'>
