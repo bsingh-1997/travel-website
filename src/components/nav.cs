@@ -21,7 +21,7 @@
     list-style: none;
     align-items: center;
 }
-.nav-links{
+.nav-s{
     text-decoration: none;
     color: #222;
     font-size: 1.2rem;
@@ -29,16 +29,16 @@
     padding: 0.7rem 1rem;
     white-space: nowrap;
 }
-.nav-links i{
+.nav-s i{
     padding-right: 10px;
 }
-.nav-links:hover{
+.nav-s:hover{
     background-color: #01959a;
     color: #fff;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
 }
-.nav-links-mobile{
+.nav-s-mobile{
     display: none;
 }
 button{
@@ -86,17 +86,17 @@ button:hover{
     /* z-index: 101; */
     /* flex-wrap: wrap; */
 }
-.nav-links{
+.nav-s{
     display: block;
     width: 100%;
     font-size: 1.2rem;
     padding: 2rem 0;
 }
-.nav-links:hover{
+.nav-s:hover{
     background-color: #01959a;
     transition: none;
 }
-.nav-links-mobile {
+.nav-s-mobile {
     display: block;
     text-align: center;
     padding: 1.5rem;
