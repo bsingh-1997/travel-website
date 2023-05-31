@@ -11,16 +11,12 @@ import Aboutop from './components/Aboutop'
 function App() {
   return (
     <div className='App'>
-      <BrowserRouter>
-        {/* <Navbar/> */}
           <Routes>
-             <Route exact path="/" element={<Homeo/>} ></Route>
-             {/* <Route path="/about" element={<About/>} ></Route> */}
-             <Route path="/about" element={<Aboutop/>} ></Route>
-             {/* <Route path="/contact" element={<Contact/>} ></Route> */}
-             {/* <Route path="/service" element={<Service/>}></Route> */}
+             <Route path="/" element={<Home/>} ></Route>
+             <Route path="/about" element={<About/>} ></Route>
+             <Route path="/contact" element={<Contact/>} ></Route>
+             <Route path="/service" element={<Service/>}></Route>
           </Routes>
-      </BrowserRouter>
     </div>
   
   );
