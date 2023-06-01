@@ -9,7 +9,7 @@ function Hero(props){
             <div className='hero-text'>
                 <h1>{props.title}</h1>
                 <p>{props.text}</p>
-                <NavLink to={props.url} className={props.btnClass}>{props.buttonText}</NavLink>
+                <a href={props.url} className={props.btnClass}>{props.buttonText}</a>
             </div>
 
         </div>
