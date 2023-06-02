@@ -1,14 +1,14 @@
 export const MenuItems = [
     {
         title:'Home',
-        url :"/travel-website",
+        url :"/travel-website/#",
         cName:"nav-s",
         icon:"fa-solid fa-house"
     },
     
     {
         title:'About',
-        url :"/about",
+        url : "/travel-website/#/about",
         cName:"nav-s",
         icon:"fa-solid fa-circle-info"
     },
