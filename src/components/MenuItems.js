@@ -15,20 +15,20 @@ export const MenuItems = [
     
     {
         title:'Service',
-        url :"/service",
+        url :"/travel-website/#/service",
         cName:"nav-s",
         icon:"fa-solid fa-briefcase"
     },
     
     {
         title:'Contact',
-        url :"/contact",
+        url :"/travel-website/#/contact",
         cName:"nav-s",
         icon:"fa-solid fa-address-book"
     },
     {
         title:'Sign up',
-        url :"/",
+        url :"/travel-website/#/",
         cName:"nav-s-mobile"
     }
     
